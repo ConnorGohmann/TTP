@@ -37,15 +37,15 @@
 
        
        <div class="div1">
-       Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-       Email*<br><input type="email" size="30" required name="email"><br>
-       Phone*<br><input type="tel" size="30" placeholder="XXX-XXX-XXXX" autofocus required name="tel"><br>
-       Personal Website<br><input type="url" size="30" name="personal website">
+       Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"><br>
+       Email*<br><input type="email" size="30" required name="email" aria-label="Email Adress"><br>
+       Phone*<br><input type="tel" size="30" placeholder="XXX-XXX-XXXX" autofocus required name="tel" aria-label="Phone Number"><br>
+       Personal Website<br><input type="url" size="30" name="personal website" aria-label="Website">
        
        
        </div>
        <div class="div2">
-         Current Highschool<br><input type="text" size="30" list="highschool">
+         Current Highschool<br><input type="text" size="30" list="highschool" aria-label="Current Highschool">
          <datalist id="highschool">
            <option value="Beaverbrook">
            <option value="Birchwood">
@@ -54,8 +54,8 @@
            <option value="Hainesville">
            <option value="Other">
              </datalist>
-             <br>Expected date of entry<br><input type="date" size="5" name="entry">
-            <br> Number of days/weeks desired<br><input type="number" size="5" min="1" max="5" step="1" value="2" name="days"><br>
+             <br>Expected date of entry<br><input type="date" size="5" name="entry" aria-label="Expected date of entry">
+            <br> Number of days/weeks desired<br><input type="number" size="5" min="1" max="5" step="1" value="2" name="days" aria-label="Days Desired"><br>
             <input type="submit" value="Help Me Book Boost My Scores!" class="button">
          
          
