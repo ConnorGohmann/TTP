@@ -9,7 +9,7 @@ body {
   padding:0;
 }
 
-header, nav, main, footer, aside, article, .fig2{
+header, nav, main, footer, aside, article, .fig2, form{
    border-radius:5px;
 }
 
@@ -181,7 +181,7 @@ video {
   grid-area:div2;
 }
 form{
-  background-color:#FFA500;
+  background-color:#0000b0;
   width:90%;
   margin:auto;
   color:white;
